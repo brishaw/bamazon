@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Node.js and MySQL Amazon-like storefront.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brishaw/bamazon.git"
+  },
+  "author": "Brian Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brishaw/bamazon/issues"
+  },
+  "homepage": "https://github.com/brishaw/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
