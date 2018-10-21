@@ -23,11 +23,8 @@ Bamazon is a Node.js and MySQL Amazon-like storefront that will take in orders f
 ## Part 2
 1. Running bamazonManager.js will show the following list of options:
     View Products for Sale
-    
     View Low Inventory
-    
     Add to Inventory
-    
     Add New Product
 2. If the user selects `View Products for Sale`, the app will list every available item: the item IDs, names, prices, and quantities.
 3. When a user selects `View Low Inventory`, the app will list all items with an inventory count lower than five.
