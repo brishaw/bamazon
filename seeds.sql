@@ -100,15 +100,15 @@ INSERT INTO departments (department_id, department_name, over_head_costs)
 VALUES(2, "Automotive", 2000);
 
 INSERT INTO departments (department_id, department_name, over_head_costs)
-VALUES(3, "Music and Video", 400);
+VALUES(3, "Music&Video", 400);
 
 INSERT INTO departments (department_id, department_name, over_head_costs)
-VALUES(4, "Music Instruments", 300);
+VALUES(4, "Instruments", 300);
 
 INSERT INTO departments (department_id, department_name, over_head_costs)
 VALUES(5, "Mens Shoes", 10000);
 
 INSERT INTO departments (department_id, department_name, over_head_costs)
-VALUES(6, "Clothing", 10);
+VALUES(6, "Clothing", 3000);
 
 SELECT * FROM departments;

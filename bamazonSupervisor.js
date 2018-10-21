@@ -33,8 +33,9 @@ function vpsd() {
     
     if(err) throw err;
 
-    console.log("RESPONSE: " + response);
-    console.log("dept id: " + response[0].department_name);
+    //console.log("RESPONSE: " + response);
+    //console.log("dept id: " + response[0].department_name);
+    console.clear();
     console.log("Dept ID | Dept Name    | Overhead Costs    | Product Sales    |    Total Profit");
     for (var i = 0; i < response.length; i++) {
       
@@ -47,7 +48,7 @@ function vpsd() {
       // if (productSales == null) {
       //   productSales = 0;
       // }
-      console.log(dept_id + "         " + dept_name + "         " + ohc + "       " + productSales + "       " + totalProfit);
+      console.log("    " + dept_id + "     " + dept_name + "         " + ohc + "                " + productSales + "               " + totalProfit);
     }
     console.log("\n");
     mainMenu();

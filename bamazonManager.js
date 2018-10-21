@@ -39,7 +39,7 @@ console.log("\n");
       var price = (response[i].price);
       var qty = (response[i].stock_quantity);
       
-      console.log("  " + id + "       $" + price.toLocaleString() + ".00       " + qty + "       " + name);
+      console.table("  " + id + "       $" + price.toLocaleString() + ".00       " + qty + "       " + name);
       console.log("-------------------------------------------------------------------------------------------");
 
     }
@@ -50,7 +50,8 @@ console.log("\n");
 }
 
 function vli() {
-
+  console.clear();
+  console.log("\n");
   connection.query("SELECT * FROM products WHERE stock_quantity < 5", function (err, response) {
 
     if (err) throw err;
@@ -223,8 +224,6 @@ function emv() {
 
 function mainMenu() {
 var choices = ["View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product", "Exit Manager View"];
-
-//console.log("choices: " + choices);
 
   inquirer.prompt([
     {

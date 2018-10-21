@@ -81,7 +81,10 @@ function storeFront() {
 
         console.log("There are currently "  + response[itemChosen.id-1].stock_quantity + " available.");
 
-        if (itemChosen.qty > response[itemChosen.id - 1].stock_quantity) {
+        if (response[itemChosen.id - 1].stock_quantity == 0) {
+          console.log("I'm sorry, this product is currently sold out");
+          tryAgain();
+        } else if (itemChosen.qty > response[itemChosen.id - 1].stock_quantity) {
 
           console.log("I'm sorry there is not enough in our inventory to fulfill your order, please try your order again with a smaller amount.");
           tryAgain();
