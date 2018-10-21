@@ -4,11 +4,11 @@
 Bamazon is a Node.js and MySQL Amazon-like storefront that will take in orders from customers and deplete stock from the store's inventory.
 
 ## Link to Bamazon Movie Walkthrough
-## <a href="https://drive.google.com/file/d/1W0BZGszHt5j-BFV0RAYnmM7m5entpRde/view?usp=sharing" target="_blank">Part 1</a>
+## <a href="https://drive.google.com/file/d/1W0BZGszHt5j-BFV0RAYnmM7m5entpRde/view?usp=sharing" target="_blank">Bamazon Part 1</a>
 
-## Part 2 - https://drive.google.com/file/d/12S2CedZw8UGOuMX_yOQfgSVC80lE-V9b/view?usp=sharing
+## <a href="https://drive.google.com/file/d/12S2CedZw8UGOuMX_yOQfgSVC80lE-V9b/view?usp=sharing" target="_blank">Bamazon Part 2</a>
 
-## Part 3 - https://drive.google.com/file/d/1bb4eKoxHIUU0h9NWaudzT6uErcfTWasa/view?usp=sharing
+## <a href="https://drive.google.com/file/d/1bb4eKoxHIUU0h9NWaudzT6uErcfTWasa/view?usp=sharing" target="_blank">Bamazon Part 3</a>
 
 ## How does it work?
 ## Part 1
